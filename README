@@ -1,0 +1,3 @@
+1. Adjust jitsimeet.subdomain.conf to include domain 
+2. ./gen-passwords.sh
+3. docker-compose up -d
