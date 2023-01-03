@@ -347,7 +347,7 @@ services:
         networks:
             meet.jitsi:
 
-    Letsencrypt:
+    letsencrypt:
           container_name: letsencrypt
           image: linuxserver/swag
           restart: ${RESTART_POLICY:-unless-stopped}

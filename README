@@ -1,3 +1,4 @@
 1. Adjust jitsimeet.subdomain.conf to include domain 
 2. ./gen-passwords.sh
-3. docker-compose up -d
+3. mkdir -p .jitsi-meet-cfg/{web,transcripts,prosody/config,prosody/prosody-plugins-custom,jicofo,jvb,jigasi,jibri}
+4. docker-compose up -d
